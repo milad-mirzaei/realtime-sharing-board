@@ -12,9 +12,9 @@ import { Skeleton } from "@/components/ui/skeleton";
 import Footer from "./Footer";
 import Actions from "@/components/Actions";
 import { MoreHorizontal } from "lucide-react";
-import { useApiMutation } from "@/hooks/useApiMutation";
 import { api } from "@/convex/_generated/api";
 import { toast } from "sonner";
+import { useApiMutation } from "@/hooks/useApiMutation";
 
 interface BoardCardProps {
   id: string;

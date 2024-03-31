@@ -8,9 +8,9 @@ import {Button} from '@/components/ui/button'
 import Image from 'next/image'
 import React from 'react'
 import { useOrganization } from '@clerk/nextjs'
-import { useApiMutation } from '@/hooks/useApiMutation'
 import { toast } from 'sonner'
 import { useRouter } from 'next/navigation'
+import { useApiMutation } from '@/hooks/useApiMutation'
 
 const EmptyBoards = () => {
   const router = useRouter()

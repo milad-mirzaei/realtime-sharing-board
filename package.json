@@ -25,6 +25,7 @@
     "convex-helpers": "^0.1.27",
     "date-fns": "^3.6.0",
     "lucide-react": "^0.363.0",
+    "nanoid": "^5.0.6",
     "next": "14.1.4",
     "next-themes": "^0.3.0",
     "node": "^21.7.1",
