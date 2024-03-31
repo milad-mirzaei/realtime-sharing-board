@@ -23,7 +23,6 @@ const ConvexClientProvider = ({ children }: ConvexClientProviderProps) => {
       <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
         <Authenticated>
             {children}
-          {"وارد شده"}
         </Authenticated>
         <AuthLoading>
           <Loading />

@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import EmptyOrg from "../_components/EmptyOrg";
+import EmptyOrg from "./_components/EmptyOrg";
 import { useOrganization } from "@clerk/nextjs";
-import BoardList from "../_components/BoardList";
+import BoardList from "./_components/BoardList";
 
 interface DashboardPageProps {
     searchParams:{
